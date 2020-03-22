@@ -38,8 +38,8 @@ use Net::SSLeay::Handle;
 if(!defined($ARGV[0] && $ARGV[1])) {
 
 system('clear');
-print "\n+++ Imad'Ox-Bruter Facebook password Bruter\n";
-print "+++ Coded by Imad'Ox-Hunter\n";
+print "\n+++ Gross-FB\n";
+print "+++ Coded by xhack7x\n";
 print "+++ www.fb.com/imad.elouajib\n\n";
 print "+++ Usage: perl $0 login wordlist\n\n";
 exit; }
