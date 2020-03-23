@@ -18,8 +18,14 @@ my $wordlist = $ARGV[1];
 
 open (LIST, $wordlist) || die "\n[-] No Wordlist On $wordlist -_- \n";
 
+print color('bold blue');
+print "\n
+▄▄ • ▄▄▄        .▄▄ · .▄▄ ·     ·▄▄▄ ▄▄▄·  ▄▄· ▄▄▄ .▄▄▄▄·             ▄ •▄ 
+▐█ ▀ ▪▀▄ █·▪     ▐█ ▀. ▐█ ▀.     ▐▄▄·▐█ ▀█ ▐█ ▌▪▀▄.▀·▐█ ▀█▪▪     ▪     █▌▄▌▪
+▄█ ▀█▄▐▀▀▄  ▄█▀▄ ▄▀▀▀█▄▄▀▀▀█▄    ██▪ ▄█▀▀█ ██ ▄▄▐▀▀▪▄▐█▀▀█▄ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
+▐█▄▪▐█▐█•█▌▐█▌.▐▌▐█▄▪▐█▐█▄▪▐█    ██▌.▐█ ▪▐▌▐███▌▐█▄▄▌██▄▪▐█▐█▌.▐▌▐█▌.▐▌▐█.█▌
+·▀▀▀▀ .▀  ▀ ▀█▄▀▪ ▀▀▀▀  ▀▀▀▀     ▀▀▀  ▀  ▀ ·▀▀▀  ▀▀▀ ·▀▀▀▀  ▀█▄▀▪ ▀█▄▀▪·▀  ▀\n";
 print color('bold black');
-print "\n+++ Gross-FB\n";
 print "+++ Creador : xHack7x\n";
 print "+++ www.xhack7x.com\n";
 print color('bold red');
